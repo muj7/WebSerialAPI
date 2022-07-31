@@ -18,7 +18,7 @@
   //Prompt user to select any serial port
   const port = await navigator.serial.requestPort();
   // witing for the serial port to open
-  await port.open({ baudRate: 9600 });
+  await port.open({ baudRate: 115200 });
 
  ?>
 <!DOCTYPE html>
