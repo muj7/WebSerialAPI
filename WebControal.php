@@ -70,7 +70,7 @@
           const TextEncoder = new TextEncoderStream();
           const writableStreamClosed = TextEncoder.readable.pipTo(port.writable);
 
-          const writer.write($result);
+          const writer.write($result+"@");
           //closing the port
           await port.close();
            ?>
